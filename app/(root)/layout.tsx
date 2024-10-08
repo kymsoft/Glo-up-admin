@@ -13,9 +13,6 @@ export default async function SetupLayout({
         redirect('/sign-in')
     }
 
-    const billboard = await db.billboard.findFirst({
-        
-    })
 
     const store = await db.store.findFirst({
         where: {
